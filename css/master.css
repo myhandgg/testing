@@ -128,6 +128,9 @@ header .containeer .burger-icon {
 }
 
 @media (min-width:768px){
+    header .containeer ul li {
+        padding: 0 10px;
+    }
     header .containeer .burger-icon {
         display: none;
     }
@@ -164,7 +167,7 @@ header .containeer .burger-icon {
 /* Start scetion */
 
 section {
-    background-image: url(/images/banner.jpg);
+    background-image: url(../images/banner.jpg);
     width:100%;
     height: 600px;
     background-size: cover;
@@ -434,7 +437,7 @@ section .containeer .content .bars-container .active {
 /* Start about-company */
 
 .about-company {
-    background-image: url(/images/about_bg.jpg);
+    background-image: url(../images/about_bg.jpg);
     background-position: center;
     height: 800px;
     display:flex;
@@ -495,7 +498,7 @@ section .containeer .content .bars-container .active {
 }
 
 .portfolio .containeer .my-projects .project-one {
-    background-image: url(/images/prot1.png);
+    background-image: url(../images/prot1.png);
     background-repeat: no-repeat;
 }
 
@@ -568,17 +571,17 @@ section .containeer .content .bars-container .active {
 }
 
 .portfolio .my-projects .project-two {
-    background-image: url(/images/prot2.png);
+    background-image: url(../images/prot2.png);
     background-repeat: no-repeat;
 }
 
 .portfolio .my-projects .project-three {
-    background-image: url(/images/prot3.png);
+    background-image: url(../images/prot3.png);
     background-repeat: no-repeat;
 }
 
 .portfolio .my-projects .project-four {
-    background-image: url(/images/prot4.png);
+    background-image: url(../images/prot4.png);
     background-repeat: no-repeat;
 }
 
