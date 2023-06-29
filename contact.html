@@ -110,6 +110,23 @@
         </div>
     </footer>
     <script>
+        // burger icon
+        document.querySelector(".burger-icon").onclick = () =>{
+            document.querySelector(".links").classList.toggle("show")
+        }
+        
+        // bars event
+        let bars = document.querySelectorAll(".bar")
+        
+        bars.forEach(function (ele) {
+            ele.onclick = () =>{
+                bars.forEach(function (ele) {
+                    ele.classList.remove("active")
+                })
+                ele.classList.add("active")
+            }
+        })
+
         let nameInput = document.querySelector(".input-box .name")
         let numberInput = document.querySelector(".input-box .number")
         let emailInput = document.querySelector(".input-box .email")
