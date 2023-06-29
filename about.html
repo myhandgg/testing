@@ -97,5 +97,23 @@
             </div>
         </div>
     </footer>
+    <script>
+        // burger icon
+        document.querySelector(".burger-icon").onclick = () =>{
+            document.querySelector(".links").classList.toggle("show")
+        }
+        
+        // bars event
+        let bars = document.querySelectorAll(".bar")
+        
+        bars.forEach(function (ele) {
+            ele.onclick = () =>{
+                bars.forEach(function (ele) {
+                    ele.classList.remove("active")
+                })
+                ele.classList.add("active")
+            }
+        })
+    </script>
 </body>
 </html>
